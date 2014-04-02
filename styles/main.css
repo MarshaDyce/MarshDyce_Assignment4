@@ -1,0 +1,171 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  color: #082456;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+ color:#082456;
+}
+
+p {
+  font-size: 21px;
+  color: #082456;
+}
+
+
+h1,h2,h3 {
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+}
+
+h1 {
+  font-size: 64px;
+ 
+}
+
+h2 {
+  font-size: 48px;
+  color: #ff0000;
+}
+
+h3 {
+  font-size: 32px;
+  color: #082456;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+/* Used to center */
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* Navigation */
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0px;
+
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 20px;
+  margin: 0px 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header{
+  background-image: url("../images/background.jpg");
+  padding: 290px;
+  height: 645px;
+  background-size: cover;
+  text-align: center;
+
+}
+
+header h1{
+  font-size: 64px;
+  color:#ff0000;;
+  margin: 10px 0px;
+}
+
+header h4 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+}
+
+section#details{
+  width: 100%;
+  padding: 70px;
+  color: #fff;
+  float: left;
+  background-color: #e0edf1;
+
+}
+.leftdetails{
+  width: 558px;
+  float: left;
+}
+
+#details ul li {
+  display: inline-block;
+  width: 300px;
+  margin: 15px 40px;
+  text-align: center;
+}
+
+#gallery {
+  width: 100%;
+  border-radius: 24px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+section#about {
+	width: 100%;
+	padding: 70px;
+	float: left;
+}
+
+.leftabout{
+width: 533px;
+float: left;
+text-align: left;
+}
+
+.rightabout{
+width: 547px;
+float: left;
+}
+
+#lightbox{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px){
+	body{
+	float: left;
+	display: inline-block;
+		
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+	
+}
+
+
+
